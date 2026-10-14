@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content="width = device-width,intial-scale =1.0"/>
+        <title>Products</title>
+    </head>
+    <body>
+        {% for product in products %}
+        <div>
+            <h2>{{ product[0] }}</h2>
+            <h1>{{ product[1] }}</h1>
+            <h3>{{ product[2] }}</h3>
+        </div>
+        {% endfor %}
+    </body>
+
+</html>
